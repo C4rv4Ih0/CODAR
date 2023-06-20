@@ -24,13 +24,13 @@ function toggleMode(){
 
     // SE TIVER MODO CLARO, IMG CLARA
 
-        img.setAttribute('src', '/Rocket site/IMG/BRANCO.png')
+        img.setAttribute('src', '/IMG/BRANCO.png')
     } 
     else{ 
 
     // SE TIVER MODO ESCURO, IMG ESCURA
 
-       img.setAttribute('src', '/Rocket site/IMG/PRETO.png')
+       img.setAttribute('src', '/IMG/PRETO.png')
   
     }
 }
