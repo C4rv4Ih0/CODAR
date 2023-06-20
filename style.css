@@ -1,0 +1,201 @@
+* {/*seletor universal*/
+    margin: 0;
+    padding: 0; /*preenchimento interno*/
+    box-sizing: border-box;
+}
+
+:root{ /*criando raiz: root variaveis*/
+    --text-color: white ; /*tudo que eu usar essa variavel ficará branco*/
+    --bg-url: url(/Rocket\ site/IMG/Background.jpg);
+    --Strok-color:rgba(255, 255, 255, 0.5);
+    --Surface-color-haver:rgba(255, 255, 255, 0.1);
+    --highlight-color: rgba(255, 255, 255, 0.2);
+    --Switch-gb-url: url(/Rocket\ site/IMG/moonstars.svg);
+}
+
+.Light{
+
+    --text-color: black;
+    --bg-url: url(/Rocket\ site/IMG/bg-mobile-light.jpg);
+    --Strok-color:rgba(0, 0, 0, 0.5);
+    --Surface-color: rgba(0, 0, 0, 0.05);
+    --Surface-color-haver: rgba(0, 0, 0, 0.2);
+    --Surface-color-haver: rgba(0, 0, 0, 0.2);
+    --highlight-color: rgba(0, 0, 0, 0.1);
+    --Switch-gb-url: url(/Rocket\ site/IMG/sun.svg);
+}
+
+
+body{
+
+    /*background-image: url(/IMG/bg-mobile-light.jpg);
+    background-repeat: no-repeat; 
+    background-position: top center;
+    background-size: cover;*/
+
+/* TUDO EM UMA LINHA: background: color image reapet position / size;*/
+
+    background: var(--bg-url) no-repeat top center / cover;
+}
+
+
+
+body *{ /* o asterisco diz que ele vai usar este parametro para todo elemento do body*/
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+}
+
+#container{ /*# e um identificador*/
+    width: 100%;
+    max-width: 588px ;
+    /*border: 1px solid red;coloca bordas*/
+    margin: 56px auto 0px; /*alinha de cima,direita,baixo,esquerta*/
+    padding: 0 24px;
+}
+
+/*PROFILE*/
+
+#profile{
+
+    text-align: center; /*para centralizar o div*/ 
+    padding: 24px;
+}
+
+#profile img /*img é enline já div é block ou seja n deixa usar margin auto*/{
+
+    width: 200px; 
+}
+
+#profile p{
+
+    font-weight: 500px;
+    line-height: 24px;
+    margin-top: 8px;
+
+}
+
+/*SWITCH*/
+
+#switch{
+
+    position: relative;/*realtiva o absoluto e gruda no switch*/
+    width: 64px;
+    margin: 4px auto; /*alinha display block*/
+
+}
+
+#switch button{
+
+    width: 32px;
+    height: 32px;
+    background:white var(--Switch-gb-url) no-repeat center;
+    border:0;
+    border-radius: 50%; /*arredonda as bordas*/
+    position: absolute; /*deixa um acima/ a baixo do outro*/
+    left: 0;
+    top: 50%;
+    transform:  translateY(-50%);
+    
+    
+    z-index: 1; /*deixa um nitido do outro, sem danificar a imagem*/
+}
+
+.Light #switch button{
+
+    right: 0; 
+    left: initial; /*Volta pra maneira inicial*/
+    
+
+
+}
+
+#switch span{
+    display: block;
+    width: 64px;
+    height: 24px;
+    background: var(--Surface-color);
+    border:  1px solid var(--Strok-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px) ; /*para rodar em outros navegadores*/
+    border-radius: 24%;
+  
+}
+
+/*LINKS*/
+
+ul{
+    list-style-type: none;
+    display: flex;
+    
+    flex-direction: column;
+    gap: 16px;
+
+    padding: 24px 0;
+}
+
+ul li a{
+
+    display: flex;
+    justify-content: center; /*coloca os elemnetos no centro*/
+    
+    align-items: center; /*Coloca os elementos alinhados no meio do bloco*/
+    padding: 16px 24px ; /*aumenta a alrgura das caixas*/
+    
+    background-color: var(--Surface-color);
+    border: 1px solid var(--Strok-color);
+    
+    border-radius: 8px; /*arredonda as bordas*/
+    backdrop-filter: blur (4px);
+    
+    -webkit-backdrop-filter: blur (4px);
+    text-decoration: none; /*tira a barra de baixo do texto*/
+    
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+
+ul li a:hover{ /*pesudo-selector - quando passa o mouse em cima*/
+
+    background-color: var(--Surface-color-haver);
+    border: 1.5px solid var(--text-color);
+}
+
+/*social_links*/
+
+#social-links{
+
+    display: flex;
+    justify-content: center;
+
+    gap: 16px;
+    padding: 32px 0px;
+
+    font-size: 24px;
+}
+
+#social-links a{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#social-links :hover{
+
+    background: var(--highlight-color);
+    padding: 5px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+footer {
+
+    padding: 23px 0;
+    text-align: center;
+    font-size: 14px;
+   
+}
+
+footer :hover{
+
+    background: rgba(255, 255, 255, 0.2);
+}
