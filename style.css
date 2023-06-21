@@ -36,11 +36,13 @@ body{
 /* TUDO EM UMA LINHA: background: color image reapet position / size;*/
 
     background: var(--bg-url) no-repeat top center / cover;
+    height: 100vh /* tira as falhas brancas em baixo*/
 }
 
+/* o asterisco diz que ele vai usar este parametro para todo elemento do body*/
 
-
-body *{ /* o asterisco diz que ele vai usar este parametro para todo elemento do body*/
+body * { 
+    
     font-family: 'Inter', sans-serif;
     color: var(--text-color);
 }
@@ -198,4 +200,19 @@ footer {
 footer :hover{
 
     background: rgba(255, 255, 255, 0.2);
+}
+
+/* tudo que começa com ARROBA é um AT-RULE*/
+/*@media queries*/
+
+@media (min-width: 700px) {
+
+    :root {
+    --bg-url: url(/IMG/GG-PRETO.png);
+    }
+
+    .Light{
+        --bg-url: url(/IMG/GG-BRANCO.png);
+    }
+
 }
