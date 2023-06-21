@@ -39,7 +39,7 @@ body{
     height: 100vh /* tira as falhas brancas em baixo*/
 }
 
-/* o asterisco diz que ele vai usar este parametro para todo elemento do body*/
+/* o asterisco diz que ele vai usar este parametro para todo elemento do body */
 
 body * { 
     
