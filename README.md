@@ -1,78 +1,52 @@
+<h1 align="center"> DevLinks </h1>
+
 <p align="center">
-  <img alt="" src="" width="160px">
+Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
 </p>
 
 <p align="center">
-
-  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000" alt="License">   
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 
-<h1 align="center">
-    <img alt="Primerio site" src="" />
-</h1>
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
 <br>
 
-## 🧪 Tecnologias
+<p align="center">
+  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
+</p>
+
+## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Html](https://reactjs.org)
-- [CSS](https://firebase.google.com/)
-- [JavaScript](https://www.typescriptlang.org/)
-
-## 🚀 O  que é esse projeto
-
-Clone o projeto e acesse a pasta do mesmo.
-
-```bash
-$ git clone https://github.com/rocketseat-education/nlw-06-reactjs
-$ cd nlw-06-reactjs
-```
-
-Para iniciá-lo, siga os passos abaixo:
-```bash
-# Instalar as dependências
-$ yarn
-
-# Iniciar o projeto
-$ yarn start
-```
-O app estará disponível no seu browser pelo endereço http://localhost:3000.
-
-Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database.
+- HTML e CSS
+- JavaScript
+- Git e Github
+- Figma
 
 ## 💻 Projeto
 
-Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática. 
+O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-Este é um projeto desenvolvido durante a **[Next Level Week Together](https://nextlevelweek.com/)**, apresentada dos dias 20 a 27 de Junho de 2021.
+- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
 
+- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através do link abaixo:
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-- [Layout Web](https://www.figma.com/community/file/1009824839797878169/Letmeask) 
+## :memo: Licença
 
-Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
-
-## 📝 License
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com 💜 by Rocketseat 👋🏻 [Participe da nossa comunidade](https://discord.gg/gKUVrzrPrU)
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
+Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
