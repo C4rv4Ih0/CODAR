@@ -100,15 +100,11 @@ body * {
     
     
     z-index: 1; /*deixa um nitido do outro, sem danificar a imagem*/
+    animation: slide-out 0.2s;
 }
 
 .Light #switch button{
-
-    right: 0; 
-    left: initial; /*Volta pra maneira inicial*/
-    
-
-
+    animation: slide-in 0.4s forwards;
 }
 
 #switch span{
@@ -121,6 +117,11 @@ body * {
     -webkit-backdrop-filter: blur(4px) ; /*para rodar em outros navegadores*/
     border-radius: 24%;
   
+}
+
+#switch button:hover{
+
+    outline: 8px solid var(--highlight-color);
 }
 
 /*LINKS*/
@@ -213,6 +214,32 @@ footer :hover{
 
     .Light{
         --bg-url: url(/IMG/GG-BRANCO.png);
+    }
+
+}
+
+/*ANIMAÇÕES -  transição suave*/
+
+@keyframes  slide-in {
+
+    from{
+        left: 0;
+    }
+
+    to{
+        left: 50%;
+    }
+
+}
+
+@keyframes slide-out{
+
+    from{
+        left: 50%;
+    }
+
+    to{
+        left: 0%;
     }
 
 }
