@@ -24,13 +24,13 @@ function toggleMode(){
 
     // SE TIVER MODO CLARO, IMG CLARA
 
-        img.setAttribute('src', '/IMG/BRANCO.png')
+        img.setAttribute('src', '/BRANCO.png')
     } 
     else{ 
 
     // SE TIVER MODO ESCURO, IMG ESCURA
 
-       img.setAttribute('src', '/IMG/PRETO.png')
+       img.setAttribute('src', '/PRETO.png')
   
     }
 }
