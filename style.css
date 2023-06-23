@@ -6,23 +6,23 @@
 
 :root{ /*criando raiz: root variaveis*/
     --text-color: white ; /*tudo que eu usar essa variavel ficará branco*/
-    --bg-url: url(/IMG/Background.jpg);
+    --bg-url: url(IMG/Background.jpg);
     --Strok-color:rgba(255, 255, 255, 0.5);
     --Surface-color-haver:rgba(255, 255, 255, 0.1);
     --highlight-color: rgba(255, 255, 255, 0.2);
-    --Switch-gb-url: url(/IMG/moonstars.svg);
+    --Switch-gb-url: url(IMG/moonstars.svg);
 }
 
 .Light{
 
     --text-color: black;
-    --bg-url: url(/IMG/bg-mobile-light.jpg);
+    --bg-url: url(IMG/bg-mobile-light.jpg);
     --Strok-color:rgba(0, 0, 0, 0.5);
     --Surface-color: rgba(0, 0, 0, 0.05);
     --Surface-color-haver: rgba(0, 0, 0, 0.2);
     --Surface-color-haver: rgba(0, 0, 0, 0.2);
     --highlight-color: rgba(0, 0, 0, 0.1);
-    --Switch-gb-url: url(/IMG/sun.svg);
+    --Switch-gb-url: url(IMG/sun.svg);
 }
 
 
@@ -209,11 +209,11 @@ footer :hover{
 @media (min-width: 700px) {
 
     :root {
-    --bg-url: url(/IMG/GG-PRETO.png);
+    --bg-url: url(IMG/GG-PRETO.png);
     }
 
     .Light{
-        --bg-url: url(/IMG/GG-BRANCO.png);
+        --bg-url: url(IMG/GG-BRANCO.png);
     }
 
 }
