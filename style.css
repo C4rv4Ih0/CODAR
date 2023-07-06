@@ -115,7 +115,7 @@ body * {
     border:  1px solid var(--Strok-color);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px) ; /*para rodar em outros navegadores*/
-    border-radius: 24%;
+    border-radius: 9999px;
   
 }
 
